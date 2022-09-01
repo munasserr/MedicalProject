@@ -1,0 +1,79 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --mainColor: #408866;
+  --subColor: #3d4b44;
+  --mainFont: 'Ubuntu', sans-serif;
+  --subFont: 'Open Sans', sans-serif;
+}
+
+span{
+  color: var(--mainColor);
+  transition: 0.7s ease;
+}
+
+/* Start About Us Section */
+
+.about{
+}
+.content {
+  width: 100%;
+  text-align: center;
+  margin-top: 50;
+  display: flex;
+}
+
+.article{
+  width:40%;
+  margin-left: 5%;
+}
+
+.photo{
+  width:45%;
+  position: relative;
+  bottom: -80px;
+  margin-left: 50px;
+}
+
+.photo img{
+  width: 100%;
+}
+
+.about h1 {
+  font-family: var(--mainFont);
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.content p {
+  font-family: 'opensans' ,sans-serif;
+  color: var(--subColor);
+  font-size: 23px;
+  font-weight: bold;
+  text-align: start;
+  margin-bottom: 35px;
+}
+
+.content p strong {
+  font-size: 45px;
+  color: var(--mainColor);
+  font-family: 'Ubuntu',sans-serif;
+}
+
+.content h2 {
+  font-family: var(--mainFont);
+  color: var(--mainColor);
+  font-size: 45px;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+/* End About Us Section */
